@@ -8,6 +8,7 @@ Vue.use(Auth, {
   issuer: 'https://dev-64727739.okta.com/oauth2/default',
   clientId: '0oa5l98qfH9ETROcU5d6',
   redirectUri: 'http://localhost:8080/implicit/callback',
+  //redirectUri: 'https://wgimson.github.io/business-card-II/implicit/callback',
   scope: 'openid profile email'
 })
 
@@ -35,7 +36,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/business-card-II/',
   routes
 })
 
