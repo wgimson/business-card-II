@@ -6,8 +6,8 @@ import Auth from '@okta/okta-vue'
 
 Vue.use(Auth, {
   issuer: 'https://dev-64727739.okta.com/oauth2/default',
-  clientId: '0oa5st38gcVdd4Za65d6',
-  redirectUri: 'https://wgimson.github.io/implicit/callback',
+  clientId: '0oa5st3s230rzy2o15d6',
+  redirectUri: 'https://wgimson.github.io/business-card-II/implicit/callback',
   scope: 'openid profile email'
 })
 
